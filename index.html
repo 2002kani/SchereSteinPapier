@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Spiel </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="headline">
+        <h1> Schere, Stein, Papier! </h1>
+        <h4> Made by KaniGames.com </h4>
+    </div>
+
+    <div class="container">
+        <h4> Wähle deine Figur weise: </h4>
+
+    <div class="wahlfeld">
+            <img src="images/v.png" id="schere">
+            <img src="images/fist.png" id="stein">
+            <img src="images/hand.png" id="papier">
+    </div>
+
+    <div class="Ergebnis-wahlfeld">
+        <p> Computer wählt: <span id="computerWahl"></span></p>
+        <p> Ergebnis: <span id="ergebnis"></span></p>
+    </div>
+    </div>
+
+    <div class="counter-container">
+        <h4> Siege: <span id="siege">0</span></h4>
+        <h4> Niederlagen: <span id="niederlagen">0</span></h4>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
